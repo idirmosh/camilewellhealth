@@ -1,0 +1,15 @@
+*.log
+
+.DS_Store
+
+.next
+
+.vercel
+.env
+node_modules
+
+public/feed.xml
+
+# Contentlayer
+.contentlayer
+node_modules
