@@ -5,6 +5,7 @@ import { Global, css } from "@emotion/core";
 import globalStyles from "lib/globalStyles";
 import * as gtag from "lib/gtag";
 import Router from "next/router";
+
 Router.events.on("routeChangeComplete", (url) => gtag.pageview(url));
 
 export function reportWebVitals({ id, name, label, value }) {

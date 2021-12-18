@@ -1,4 +1,5 @@
 import { FormControl, FormLabel, Input } from "@chakra-ui/core";
+import * as React from "react";
 
 const InputHOC = React.forwardRef(({ label, name, type, placeholder }, ref) => {
   return (

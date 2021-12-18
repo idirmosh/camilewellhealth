@@ -3,6 +3,7 @@ import NextLink from "next/link";
 import Menu from "./Menu";
 import MobileMenu from "./MobileMenu";
 import HamburgerMenu from "./HamburgerMenu";
+import * as React from "react";
 
 function Navbar() {
   const [isMenu, setIsMenu] = React.useState(false);

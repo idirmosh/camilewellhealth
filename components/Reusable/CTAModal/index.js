@@ -18,6 +18,7 @@ import ButtonHOC from "../ButtonHOC";
 import InputHOC from "./InputHOC";
 import SelecctTime from "./SelecctTime";
 import InputHeader from "./InputHeader";
+import * as React from "react";
 
 function CTAModal() {
   const { value, setValue, isOpen, onClose } = React.useContext(FormContext);
